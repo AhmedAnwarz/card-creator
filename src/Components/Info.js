@@ -7,7 +7,7 @@ export default function Info(){
             <img src={userImg} alt='user-pic'/>
             <p className="user-name">Ahmed Anwar</p>
             <p id='user-position' className="user-position">Software Engineer</p>
-            <button id='emailbtn' className='email-button'><MdEmail className='email-icon'/> Email</button>
+            <a href= 'https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ahmed.anwar.eldokmak@gmail.com' target="_blank" rel="noopener noreferrer"><button id='emailbtn' className='email-button'><MdEmail className='email-icon'/> Email</button></a>
         </div>
     )
 }

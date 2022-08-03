@@ -3,8 +3,14 @@
 }
 .change-theme-btn{
 }
+a {
+  text-decoration: none;
+}
 /* general styling the template of the card... */
 .container {
+  margin-left: 50%;
+  margin-top: 10%;
+  position: absolute;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -92,6 +98,9 @@ ul {
 /* Changing essintial classes for Light Theme */
 
 .containerLight {
+  margin-left: 50%;
+  margin-top: 10%;
+  position: absolute;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -135,9 +144,4 @@ ul {
   height: 64px;
   background: #D5D4D8;
   border-radius: 0px 0px 10px 10px;
-}
-.social--iconLight {
-  width: 25px;
-  height: 25px;
-  color: #918E9B;
 }
