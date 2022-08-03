@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+/* general styling the template of the card... */
+.container {
+  border-radius: 10px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  background-color: #1a1b21;
+  font-family: "Inter";
+  color: white;
+}
+/* styling the info section which contains the image, name and position */
+.info {
+  text-align: center;
+  line-height: 1px;
+}
+img {
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+}
+.user-name {
+  padding-top: 15px;
+  font-size: 25px;
+}
+.user-position {
+  font-weight: 400;
+  font-size: 12.8px;
+  color: #f3bf99;
+  padding-bottom: 15px;
+}
+.email-button {
+  display: inline-flex;
+  justify-self: center;
+  align-items: center;
+  justify-content: center;
+  padding: 9px 13px 9px 11px;
+  width: 247px;
+  height: 34px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+.email-icon {
+  width: 16px;
+  height: 16px;
+}
+/* now with the about & interest section which are both similar... */
+.about {
+  width: 247px;
+}
+.about-details {
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #dcdcdc;
+}
+.about-title {
+  font-size: 16px;
+  line-height: 150%;
+  color: #f5f5f5;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* finally, the footer part */
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+}
+.social-icons {
+  width: 317px;
+  height: 64px;
+  background: #161619;
+  border-radius: 0px 0px 10px 10px;
+}
+.social--icon {
+  width: 25px;
+  height: 25px;
+  color: #918e9b;
+}
