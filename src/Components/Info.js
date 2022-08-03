@@ -6,8 +6,8 @@ export default function Info(){
         <div className="info">
             <img src={userImg} alt='user-pic'/>
             <p className="user-name">Ahmed Anwar</p>
-            <p className="user-position">Software Engineer</p>
-            <button className='email-button'><MdEmail className='email-icon'/> Email</button>
+            <p id='user-position' className="user-position">Software Engineer</p>
+            <button id='emailbtn' className='email-button'><MdEmail className='email-icon'/> Email</button>
         </div>
     )
 }
