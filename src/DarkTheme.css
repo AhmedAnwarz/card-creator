@@ -1,5 +1,4 @@
 * {
-  box-sizing: border-box;
 }
 .change-theme-btn{
 }
@@ -8,15 +7,16 @@ a {
 }
 /* general styling the template of the card... */
 .container {
-  margin-left: 50%;
-  margin-top: 10%;
-  position: absolute;
+  width: 317px;
+  margin: 10%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   background-color: #1a1b21;
   font-family: "Inter";
   color: white;
+  box-shadow: 10px 10px 20px rgb(35, 35, 35);
+
 }
 /* styling the info section which contains the image, name and position */
 .info {
@@ -98,15 +98,16 @@ ul {
 /* Changing essintial classes for Light Theme */
 
 .containerLight {
-  margin-left: 50%;
-  margin-top: 10%;
-  position: absolute;
+  width: 317px;
+  margin: 10%;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   background-color: #F5F5F5;
   font-family: "Inter";
   color: #2B283A;
+  box-shadow: 10px 10px 20px rgb(121, 121, 121);
+
 }
 
 .user-positionLight {
