@@ -1,14 +1,40 @@
-* {
+body {
+  background-image: linear-gradient(to right,  #2c1c32 , #231700);
 }
 .change-theme-btn{
+  background-image: linear-gradient(to left,  #1e0064 , #0080d0);
+  color: #d1d5db;
+  font-size:larger;
+  max-width: 200px;
+  margin-top: 50px;
+  padding: 15px;
+}
+.change-theme-btn:hover{
+  background-color: #7f8191;
+}
+.btn-group{
+  display: flex;
+  flex-direction: column;
 }
 a {
   text-decoration: none;
 }
 /* general styling the template of the card... */
+.main-body{
+  position: relative;
+  max-height: 100vh;
+  border-radius: 10px;
+  margin: 2% 20% 2% 20%;
+  padding: 2% 5% 5% 5%;
+  background-image: linear-gradient(to left,  #d587f2 , #ffc862);
+  box-shadow: 10px 10px 20px rgb(83, 83, 83);
+
+}
 .container {
   width: 317px;
-  margin: 10%;
+  left: 65%;
+  bottom: 50%;
+  position: sticky;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -99,14 +125,16 @@ ul {
 
 .containerLight {
   width: 317px;
-  margin: 10%;
+  left: 65%;
+  bottom: 50%;
+  position: sticky;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   background-color: #F5F5F5;
   font-family: "Inter";
   color: #2B283A;
-  box-shadow: 10px 10px 20px rgb(121, 121, 121);
+  box-shadow: 10px 10px 20px rgb(35, 35, 35);
 
 }
 
@@ -115,20 +143,6 @@ ul {
   font-size: 12.8px;
   color: #F47D27;
   padding-bottom: 15px;
-}
-.email-buttonLight {
-  display: inline-flex;
-  justify-self: center;
-  align-items: center;
-  justify-content: center;
-  padding: 9px 13px 9px 11px;
-  width: 247px;
-  height: 34px;
-  background: #ffffff;
-  border: 1px solid #D1D5DB;
-  /* shadow/sm */
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
-  border-radius: 6px;
 }
 .about-detailsLight {
   font-size: 10.24px;

@@ -11,7 +11,6 @@ export default function App() {
         document.getElementById("card-container").className = "containerLight";
         document.getElementById("user-position").className =
           "user-positionLight";
-        document.getElementById("emailbtn").className = "email-buttonLight";
         document.getElementById("titleID").className = "about-titleLight";
         document.getElementById("detailsID").className = "about-detailsLight";
         document.getElementById("interest-titleID").className =
@@ -23,7 +22,6 @@ export default function App() {
       } else {
         document.getElementById("card-container").className = "container";
         document.getElementById("user-position").className = "user-position";
-        document.getElementById("emailbtn").className = "email-buttonLight";
         document.getElementById("titleID").className = "about-title";
         document.getElementById("detailsID").className = "about-details";
         document.getElementById("interest-titleID").className = "about-title";
@@ -54,12 +52,15 @@ export default function App() {
 
   return (
     <div className="main-body">
-      <button className="change-theme-btn" onClick={toggleTheme}>
-        Change Theme
-      </button>
-      <button className="change-theme-btn" onClick={handleDownloadImage}>
-        Export as PNG
-      </button>
+      <div className="btn-group">
+        <button className="change-theme-btn" onClick={toggleTheme}>
+          Change Theme
+        </button>
+        <button className="change-theme-btn" onClick={handleDownloadImage}>
+          Export as PNG
+        </button>
+      </div>
+
       <Card />
     </div>
   );
